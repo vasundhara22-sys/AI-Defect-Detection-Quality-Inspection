@@ -1,0 +1,35 @@
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated results
+runs/
+reports/annotated/
+data/uploads/
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large training datasets
+data/raw/
+
+# Original pretrained weights and duplicate root model
+/yolov8s.pt
+/yolov8s-world.pt
+/neu_surface.pt
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db

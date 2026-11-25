@@ -1,0 +1,17 @@
+{
+  "steel_surface": {
+    "name": "Steel surface (NEU-DET)",
+    "model": "models/neu_surface.pt",
+    "fail_conf": 0.6,
+    "review_conf": 0.15,
+    "defects": [
+      "crazing",
+      "inclusion",
+      "patches",
+      "pitted_surface",
+      "rolled-in_scale",
+      "scratches"
+    ],
+    "status": "Research prototype; validate on representative factory images before use"
+  }
+}
